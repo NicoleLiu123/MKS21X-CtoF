@@ -5,3 +5,12 @@
 //should have the parameter fahrenheit which will be replaced by the temperature in fahrenheit. This parameter will also
 //be a double. The function celsiusToFahrenheit() should return the Fahrenheit conversion of the celsius argument.
 // The function fahrenheitToCelsius() should return the Celsius conversion of the fahrenheit argument.
+public class CtoFTester{
+  public static double celsiusToFahrenheit(double celsius){
+    double Fahrenheit = (celsius*(9.0/5.0))+32.0;
+    return Fahrenheit;
+  }
+	public static void main(String[] args){
+		System.out.println(celsiusToFahrenheit(30.0));
+	}
+}
