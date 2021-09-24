@@ -10,7 +10,12 @@ public class CtoFTester{
     double Fahrenheit = (celsius*(9.0/5.0))+32.0;
     return Fahrenheit;
   }
+  public static double fahrenheitToCelsius(double fahrenheit){
+    double Celsius = (fahrenheit-32.0)*(5.0/9.0);
+    return Celsius;
+  }
 	public static void main(String[] args){
 		System.out.println(celsiusToFahrenheit(30.0));
+    System.out.println(celsiusToFahrenheit(20.0));
 	}
 }
